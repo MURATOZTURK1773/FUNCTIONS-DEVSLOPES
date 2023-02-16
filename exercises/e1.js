@@ -1,6 +1,6 @@
 // FUNCTIONS: Basics
 // BEFORE YOU START: please read the /exercises-info/e1.md file.
-wewewew;
+
 /**
  * ====================================================
  * Create a function to work as follows:
@@ -13,7 +13,10 @@ wewewew;
 
 // Your code goes here
 
-
+// function logMessage() {
+//   console.log("Hello, World!");
+// }
+const logMessage = () => { console.log("Hello, World!") };
 
 /**
  * =============================================================
@@ -27,7 +30,7 @@ wewewew;
 
 // Your code goes here...
 
-
+const logMyMessage = (MyMessage) => { console.log(MyMessage) };
 
 /**
  * ===============================================================
@@ -40,6 +43,7 @@ wewewew;
 
 // Your code goes here...
 
+const logMessageWithMyName = (name) => { console.log(`My name is ${name}!`) };
 
 
 /**
@@ -54,6 +58,7 @@ wewewew;
 
 // Your code goes here...
 
+const logMyInfo = (name, age) => { (console.log(`My name is ${name}. I am ${age} years old!`)) };
 
 
 // === TEST YOURSELF ===
