@@ -21,7 +21,7 @@ function doesArrayIncludeItemsBetweenVals(arr, val1, val2) {
       return true; 
     }
   }
-  return false; 
+  return false;
 }
 
 
@@ -41,27 +41,27 @@ function doesArrayIncludeItemsBetweenVals(arr, val1, val2) {
  */
 
 function  getValueWithConditionOne(num1, num2) {
-  if(num1 && num2 === 40) {
+  if(num1 === 40 && num2 === 40) {
     return num1 + num2;
   } else {
-    return num1 * 2 + num2 * 2;
+    return (num1 + num2) * 2;
   }
 }
 
 const getValueWithConditionTwo = (num1, num2) => {
-  if(num1 && num2 === 40) {
+  if(num1 === 40 && num2 === 40) {
     return num1 + num2;
   } else {
-    return num1 * 2 + num2 * 2;
+    return (num1 + num2) * 2;
   }
 }
 
 const getValueWithConditionThree = function(num1, num2) {
   
-  if(num1 && num2 === 40) {
-  return num1 + num2;
+  if(num1 === 40 && num2 === 40) {
+    return num1 + num2;
   } else {
-  return num1 * 2 + num2 * 2;
+    return (num1 + num2) * 2;
   }
 }
 

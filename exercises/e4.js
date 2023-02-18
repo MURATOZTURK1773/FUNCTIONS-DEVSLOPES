@@ -13,7 +13,9 @@
 //   return str.split(' ');
 // }
 
-const splitFirstAndLastNames = (str) => { return str.split(' ') };
+const splitFirstAndLastNames = (str) => {
+  return str.split(' ') 
+};
 
 
 /** =========================
@@ -46,15 +48,17 @@ const isNameInArray = (arr, name) => {
  * Hint: There are two functions to refactor.
  */
 
+
 const logSecondsUpToMax = (max) => {
   let i = 0;
-  const timer = setInterval(function() {
+  const timer = setInterval(() => {
     if (i < max) {
       console.log(i++);
     }
   }, 1000);
   return true;
-}
+};
+
 
 
 

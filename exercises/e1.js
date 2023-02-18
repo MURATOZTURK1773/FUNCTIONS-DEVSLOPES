@@ -16,7 +16,9 @@
 // function logMessage() {
 //   console.log("Hello, World!");
 // }
-const logMessage = () => { console.log("Hello, World!") };
+const logMessage = () => { 
+  console.log("Hello, World!")
+};
 
 /**
  * =============================================================
@@ -30,7 +32,9 @@ const logMessage = () => { console.log("Hello, World!") };
 
 // Your code goes here...
 
-const logMyMessage = (MyMessage) => { console.log(MyMessage) };
+const logMyMessage = (MyMessage) => {
+   console.log(MyMessage)
+};
 
 /**
  * ===============================================================
@@ -43,7 +47,9 @@ const logMyMessage = (MyMessage) => { console.log(MyMessage) };
 
 // Your code goes here...
 
-const logMessageWithMyName = (name) => { console.log(`My name is ${name}!`) };
+const logMessageWithMyName = (name) => {
+  console.log(`My name is ${name}!`)
+};
 
 
 /**
@@ -58,7 +64,9 @@ const logMessageWithMyName = (name) => { console.log(`My name is ${name}!`) };
 
 // Your code goes here...
 
-const logMyInfo = (name, age) => { (console.log(`My name is ${name}. I am ${age} years old!`)) };
+const logMyInfo = (name, age) => {
+  (console.log(`My name is ${name}. I am ${age} years old!`))
+};
 
 
 // === TEST YOURSELF ===
